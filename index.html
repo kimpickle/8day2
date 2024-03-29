@@ -34,11 +34,18 @@
         .pf img {
             box-sizing: border-box; /* ★ 추가 - 선(border) 추가시 해당 사이즈가 
             기본 사이즈에 포함되도록 설정*/
+
             width: 600px;
             border: 10px solid #fff;
             /* border : 선*/
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
             /*0,0,0,0.3 - 검정, 30% 투명도 */
+
+            h1 {font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        margin-bottom: 100px;
+        font-style: normal;}
             
         }
     </style>
@@ -47,6 +54,7 @@
 <body>
     <div class="pf">
         <h1>KMH DESIGN</h1>  /*h1-제목*/
+
         <div><a href="#"><img src="./images/1.jpg" alt="1"></a></div>
         <div><a href="#"><img src="./images/2.jpg" alt="2"></a></div>
         <div><a href="#"><img src="./images/3.jpg" alt="3"></a></div>
